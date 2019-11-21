@@ -1,0 +1,17 @@
+baseurl: /lokaverkefni
+collections:
+  companies:
+    output: true
+defaults:
+  - scope:
+      path: ""
+      type: "companies"
+    values:
+      layout: "publisher"
+  
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+sass: 
+  style: compressed
