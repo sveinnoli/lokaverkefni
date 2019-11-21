@@ -1,0 +1,23 @@
+<header id="headwrapper">
+    <div class="head-container">
+      <div class="logo-container">
+        <a href="{{site.baseurl}}/" title="home">
+          <!-- <img class="logo" src="{{site.baseurl}}/assets/img/wizliz-logo.svg"> -->
+        </a>
+      </div>
+      <nav class="nav-wrapper">
+        <input type="checkbox" class="toggle">
+        <div class="mobile-menu">
+          <div class="bar"></div>
+        </div>
+        <div class="nav-menu">
+          {% for item in site.data.navigation %}
+            <a class="nav-link {% if page.url == item.link %} current {% endif %}" href="{{site.baseurl}}{{ item.link }}" >
+                <span class="{{item.icon}}"></span>
+                <span class="nav-link-text">{{ item.name }}</span>  
+            </a>
+            {% endfor %}
+          </div>
+      </nav>
+    </div>
+  </header>
