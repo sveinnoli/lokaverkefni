@@ -1,27 +1,49 @@
+:root {
+  --header-font: 'Anton', sans-serif;
+  
+}
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  // font-family: var(--secondary-font);
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+//sticky footer, might not be needed depending on footer
+html, body {
+  height: 100%;
+}
+
+.html {
+  scroll-behavior: smooth;
+}
+
+img {
+  display:block;
+  width: 100%; 
+  height: auto;
+}
+
+h1 h2 h3 h4 h5 h6 {
+  font-family: var(--header-font);
+  line-height: 1.5;
+}
+
+a {
+  text-decoration: none;
 }
 
 
-@mixin mainBorder($color:$whiteColor, $border1:border,  $border2:none) {
-    #{$border1}:2px solid;
-    #{$border2}:2px solid;
+@mixin mainBorder($color:#fff, $border1:border,  $border2:none) {
+    #{$border1}:3px solid;
+    #{$border2}:3px solid;
     border-color: #{$color};
   }
   
-  @mixin sRadius($radius:10px) {
-    border-radius: #{$radius};
-  }
-  
-  @mixin transLink {
-    -webkit-transition: all 0.4s ease;
-    -moz-transition: all 0.4s ease;
-    -o-transition: all 0.4s ease;
-    transition: all 0.4s ease;
-  }
-  
+@mixin transLink {
+  transition: all 0.4s ease;
+}
+
   @mixin flexCenter {
     display:flex;
     display: -webkit-box;
@@ -33,28 +55,24 @@
     align-content: center;
   }
   
-  @mixin boxShadow {
-    box-shadow: 0 0 7px 1px black;
-  }
-  
   @mixin backgroundRgba($opacity:0.75) {
     background: rgba(25, 25, 25, $opacity);
   }
-  $mainColor:#b3b3b3;
+
+
+$mainColor:#b3b3b3;
 $secondaryColor: #030303;
+
+//Litur fyrir active í nav menu
 $themeColor: #9147FF;
-$iconColor: #743a8a;
-$linkColor:rgb(35, 100, 170);
-$whiteColor: #fffffe;
 
-//Background for header and footer
+//Bakgrunnur fyrir headerin
 $backgroundColor:  #161616;
-//Background for games
-$backgroundGames: linear-gradient(#32143d, #582c68);
 
-//Hamburger
+//Bagrunnur fyrir hamburgerinn
 $backgroundRgba: rgba(25, 25, 25, 0.75);
 
-//Footer
-$backgroundGradient: linear-gradient(to top right,rgba( 22, 22, 22, 0.6), 70%, rgba(82, 42, 97, 0.6));
-$newsBackground: linear-gradient(to top right ,rgb(17, 14, 14), 35%, rgb(30, 22, 102));
+.base-container {
+  margin: 5em auto 0 auto;
+}
+
