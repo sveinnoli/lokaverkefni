@@ -8,7 +8,6 @@ defaults:
       type: "companies"
     values:
       layout: "publisher"
-  
 plugins:
   - jekyll-feed
   - jekyll-sitemap

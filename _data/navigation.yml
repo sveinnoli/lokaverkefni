@@ -1,6 +1,6 @@
-- name: Home
+- name: tónleikar
   link: /
-- name: About
+- name: Listamenn
   link: /about.html
-- name: Blog
+- name: Miðar
   link: /blog.html
