@@ -22,7 +22,7 @@
   
   .logo {
     width:134px;
-    height:45px;
+    height:100px;
   }
 
   .logo-container {
@@ -53,7 +53,7 @@
     align-items: center;
     color:$mainColor;
     &:active {
-      transform: translateY(-1px);
+        transform: translate3d(-1px,-1px,-1px);
     }
     &:hover {
       background:#fff;
@@ -87,9 +87,9 @@ $headerHeight: 4.25em;
       }
   }
   
-  /*  ====================
-       Media Query 1040PX
-      ==================== */
+/* =====================
+    Media Query 1040PX
+======================== */
   
 @media screen and (max-width: 65em) {
     
@@ -112,7 +112,7 @@ $headerHeight: 4.25em;
     }
     // End of Header Containers
       
-//Aligns Nav Hamburger
+    //Aligns Nav Hamburger
     .nav-menu {
         position:fixed;
         top: $headerHeight;
@@ -148,9 +148,9 @@ $headerHeight: 4.25em;
         top: 1px;
     }
     // End of alignment
-    /*======================================
-        Start of Mobile Menu and animations
-    ======================================*/
+/*======================================
+    Start of Mobile Menu and animations
+======================================*/
     .nav-wrapper .toggle {
         display:initial;
         width: 4.6rem;
@@ -221,8 +221,8 @@ $headerHeight: 4.25em;
         @include transLink;
     }
 
-    /*======================================
-    ENd of Mobile Menu and animations
+/*======================================
+    End of Mobile Menu and animations
 ======================================*/
 }
 
@@ -230,19 +230,19 @@ $headerHeight: 4.25em;
 Media Query 720PX
 ====================*/
 @media screen and (max-width: 45em) {
-    /*============================================
-        Start of Adjusting Height of mobile Hamburger
-    ==============================================*/
-        #headwrapper {
+    #headwrapper {
         height: 3.8em;
     }
+
     .head-container {
         height: 3.8em;
     }
+
     .logo-container {
         height: 3.8em;
         justify-content: flex-start;
     }
+
     .nav-menu {
         top: 3.8rem;
     }
@@ -265,16 +265,15 @@ Media Query 720PX
     .nav-wrapper .mobile-menu .bar {
         height: 4px;
     }
+
     .nav-wrapper .mobile-menu .bar::after,
     .nav-wrapper .mobile-menu .bar::before {
         content: '';
         top: -10px;
         height: 4px;
     }
+
     .nav-wrapper .mobile-menu .bar:after {
         top: 10px;
     }
-        /* ====================
-            End of Adjustment
-        =====================*/
 }

@@ -1,12 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>http://localhost:4000/lokaverkefni/about.html</loc>
+<loc>http://localhost:4000/lokaverkefni/tonlistamenn/Birgir%20G%EDtari.html</loc>
 </url>
 <url>
-<loc>http://localhost:4000/lokaverkefni/blog.html</loc>
+<loc>http://localhost:4000/lokaverkefni/tonlistamenn/Brynja%20S%F6ngvari.html</loc>
+</url>
+<url>
+<loc>http://localhost:4000/lokaverkefni/tonlistamenn/J%F3n%20Trommari.html</loc>
 </url>
 <url>
 <loc>http://localhost:4000/lokaverkefni/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/lokaverkefni/listamen.html</loc>
+</url>
+<url>
+<loc>http://localhost:4000/lokaverkefni/midar.html</loc>
+</url>
+<url>
+<loc>http://localhost:4000/lokaverkefni/tonlistamenn/%C1sd%EDs%20Trompet.html</loc>
 </url>
 </urlset>
