@@ -2,7 +2,19 @@
 nafn: jon
 position: trommari
 fullt nafn: jon steinar
+mynd: /assets/images/author/jon.jpg
+time: 21:30
 ---
-<div>
-<img src="/assets/images/author/jon.jpg" class="authorprofiles">
-</div>
+jon er trommari
+
+sfdjnhgsauigj
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/IaJ2UHiTa0o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+<body>
+    <audio controls>
+        <source src="/assets/themalog/jojo1" type="audio/mpeg">
+    </audio>
+</body>
