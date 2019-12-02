@@ -5,9 +5,9 @@ fullt nafn: solrun jonsdottir
 mynd: /assets/images/author/solrun.jpg
 time: 21:00
 ---
-solrun spilar a trompet
+sólrun spilar á trompet
 
-jsafhhwajds
+sólrún er 25 ára gömul og finnst hönnun skemmtileg, hún byrjaði að læra á trompet þegar hún var 15 ára gömul.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/h71NBBbOjmw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 

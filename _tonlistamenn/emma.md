@@ -7,7 +7,7 @@ time: 20:30
 ---
 emma er songvari
 
-dhahsdhew
+emma er 22 ára söngvari, henni finnst gaman að horfa á æfintýramyndir og teikna.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/zfqdCXz8Yww" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 

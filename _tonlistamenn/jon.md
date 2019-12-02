@@ -7,7 +7,7 @@ time: 21:30
 ---
 jon er trommari
 
-sfdjnhgsauigj
+jon er 20 ára trommari sem er hávaxin, honum finnst hamborgarar góðir og æfir box, hann er með mikla reynslu með trommur.
 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IaJ2UHiTa0o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
