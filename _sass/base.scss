@@ -13,6 +13,10 @@
 //sticky footer, might not be needed depending on footer
 html, body {
   height: 100%;
+  background-image: url("/lokaverkefni/assets/images/concert-background.jpg");
+  background-color: whitesmoke;
+  background-position: center; 
+  background-size: cover; 
 }
 
 .html {
@@ -107,14 +111,23 @@ $backgroundColor:  #161616;
 //Bagrunnur fyrir hamburgerinn
 $backgroundRgba: rgba(25, 25, 25, 0.75);
 
+
+
+
 .base-container {
-  margin: 5em auto 0 auto;
+  margin: 4em auto 0 auto;
   width: 80em; 
 }
 
 @media screen and(max-width: 80em) {
   .base-container {
     width: auto;
+  }
+}
+
+@media screen and (max-width: 45em) {
+  .base-container {
+    margin: 3.8em auto 0 auto;
   }
 }
 

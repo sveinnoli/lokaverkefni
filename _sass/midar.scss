@@ -54,16 +54,34 @@ td {
     margin: 1em 0;
 }
 
-
 legend {
     font-family: var(--header-font);
 }
 
-.signin-form input[type=text], .signin-form input[type=password], .signin-form input[type=email], .signin-form textarea{
+label {
+    display:block;
+}
+
+#kreditkort {
+    width: 58%;
+    margin-right: 10px;
+    float:left;
+}
+
+#cvv {
+    width: 36%;
+    float:left;
+}
+.clear {
+    clear: both;
+}
+
+.signin-form input[type=text], .signin-form input[type=password], .signin-form input[type=email], .signin-form textarea .signin-form input[type=tel]{ 
     width: 100%;
 }
 
 .signin-form input, .signin-form select, .signin-form textarea {
+    width: 100%;
     padding: 4.25px 10px;
     border-color:deepskyblue;
     border-radius: 10px;
@@ -91,8 +109,8 @@ input[type=submit] {
 }
 
 
-#myPassword {
-    margin: 0;
+#creditcard {
+    width: auto;
 }
 
 #reveal-loc {
@@ -117,6 +135,8 @@ input[type=submit] {
 /*===========================
     END OF SIGNIN FORM
 ============================*/
+
+
 
 @media screen and(max-width: 45em) {
     table {
