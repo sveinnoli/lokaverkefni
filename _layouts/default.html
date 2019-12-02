@@ -5,12 +5,17 @@
     <title>{{ page.title }}</title>
     <link rel="stylesheet" href="{{'/assets/css/styles.css' | prepend: site.baseurl }}">
     <link href="https://fonts.googleapis.com/css?family=Anton&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Rambla&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Metal+Mania&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width">
     {% feed_meta %}
     {% seo %}
   </head>
   <body>
     {% include navigation.html %}
+    <div class="base-container">
     {{ content }}
+    </div>
     {% include footer.html %}
   </body>
   
