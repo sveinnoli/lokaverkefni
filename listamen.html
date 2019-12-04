@@ -1,5 +1,29 @@
 ---
 layout: default
-title: Tonleikarmen
 ---
-<h2>Bæta inn tonleikamen hérna</h2>
+<div class="music-wrapper">
+  <h2 class="musician-heading">Tónlistarmen</h2>
+  <div class="musician-showcase">
+      {%for musician in site.tonlistarmen%} 
+
+        <section class="musician">
+
+          <div class="musician-case">
+            <img class="musician-image" src="{{site.baseurl}}{{musician.image}}">
+            <span class="musician-info">{{musician.nafn}}</span>
+          </div>
+
+          <div class="musician-bio">
+            Þetta er {{musician.nafn}}, hann er {{musician.instrument}} Hann er frá bretlandi, 
+          </div>
+          <div class="musician-time">
+            Hann spilar sólo af eitt af lögunum sínum kl <span class="time">{{musician.time}}</span>
+          </div>
+          <button>
+            <a target="_blank" href="{{site.baseurl}}{{musician.url}}">Ýtta hérna</a>
+          </button>
+        </section>
+
+      {% endfor %}
+  </div>
+</div>

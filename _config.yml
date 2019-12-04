@@ -1,13 +1,18 @@
 baseurl: /lokaverkefni
 collections:
-  companies:
+  tonlistarmen:
     output: true
 defaults:
   - scope:
       path: ""
-      type: "companies"
-    values:
-      layout: "publisher"
+    values: 
+      layout: "default" 
+
+  - scope:
+      path: ""
+      type: "tonlistarmen"
+    values: 
+      layout: "default"
 plugins:
   - jekyll-feed
   - jekyll-sitemap

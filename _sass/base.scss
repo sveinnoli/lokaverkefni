@@ -13,14 +13,20 @@
 //sticky footer, might not be needed depending on footer
 html, body {
   height: 100%;
+  
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  display:flex;
+  flex-direction: column;
   background-image: url("/lokaverkefni/assets/images/concert-background.jpg");
   background-color: black;
   background-position: center; 
   background-size: cover;
-}
-
-.html {
-  scroll-behavior: smooth;
 }
 
 img {
@@ -135,6 +141,7 @@ $mainBackground : rgba(0, 0, 0, .85%);
   min-height:49.5em;
   width: 80em; 
   overflow:hidden;
+  flex: 1 0 auto;
 }
 .md-background {
   background:rgba(0,0,0, 0.65);
@@ -157,7 +164,7 @@ $mainBackground : rgba(0, 0, 0, .85%);
 }
 
 
-@media screen and(max-width: 80em) {
+@media screen and(max-width: 81em) {
   .base-container {
     width: auto;
   }
