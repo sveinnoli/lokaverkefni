@@ -8,6 +8,8 @@ table {
     text-align: center;
     table-layout: fixed;
     width: 100%;
+    background: rgba(0, 0, 0, 0.6);
+
 }
 
 thead {
@@ -45,6 +47,8 @@ td {
 .signin-form {
     max-width: 35em;
     margin: 2em auto 0;
+    background:rgba(255,255, 255, 0.85);
+    border-radius:30px;
 }
 
 .signin-form fieldset {
@@ -56,6 +60,9 @@ td {
 
 legend {
     font-family: var(--header-font);
+    text-align: center;
+    font-size: 1.5em;
+    position: relative;
 }
 
 label {
