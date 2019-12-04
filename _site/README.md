@@ -1,2 +1,0 @@
-# lokaverkefni
-lokaverkefni VEFÞ2

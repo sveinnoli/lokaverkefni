@@ -1,7 +1,8 @@
 .icons{
     width: 2em;
-    height: auto;
+    display:flex;
+    flex-direction: row;
 }
-.content{
+.foot-wrapper{
     background-color: antiquewhite;
 }
