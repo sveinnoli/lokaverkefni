@@ -22,12 +22,15 @@
   
   .logo {
     width:134px;
-    height:100px;
+    height:80px;
   }
-
+  .logo-name {
+      color:white;
+      width: 5em;
+  }
   .logo-container {
     @include flexCenter;
-    width: 52%
+    width: 52%;
   }
   
    /*========================
