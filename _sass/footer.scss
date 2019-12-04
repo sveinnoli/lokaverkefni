@@ -1,8 +1,109 @@
-.icons{
-    width: 2em;
-    display:flex;
-    flex-direction: row;
+#footwrapper {
+    @include mainBorder($secondaryColor);
+    background: $backgroundColor;
 }
-.foot-wrapper{
-    background-color: antiquewhite;
+.social-media-container {
+    @include flexCenter();
+    flex-direction: row;
+    height:auto;
+}
+.social-media {
+    @include flexCenter();
+    flex-direction: row;
+    flex-wrap:wrap;
+    flex: 30%;
+    width: 100%;
+    height: auto;
+    background: darken($backgroundColor, 5%);
+}
+.social-media-icons {
+    @include flexCenter();
+    border-radius: 50%;
+    background:#fff;
+    margin: 4px 10px 6px 10px;
+    padding: 5px 5px;
+    &:hover {
+        opacity:.7;
+    }
+}
+//End of Social Media
+
+//Start of main Content on footer
+aside {
+    grid-area:aside;
+}
+main {
+    grid-area:main;
+}
+
+.footer-container {
+    display:grid;
+    height: auto;
+    margin: 0 auto;
+    grid-template-areas: "aside main";
+    grid-template-columns: 1fr 5fr;
+    grid-template-rows: 1fr;
+    padding-right: 30px;
+}
+
+.contact-info {
+    padding: 10px;
+    color:#fff;
+}
+.contact-info li {
+    padding-bottom: 8px;
+}
+.footer-logo {
+    position: relative;
+    width:150px;
+    height:55px;
+    right:10px;
+    padding-bottom: 10px;
+}
+
+.flexwrapper {
+    display:flex;
+    flex-wrap: wrap;
+    flex: 20%;
+    flex: 1 1 auto;
+}
+
+.footer-showcase {
+    display:flex;
+    justify-content: center;
+    max-height: 200px;
+    flex:20%;
+}
+
+.showcase-image {
+    width: 100%;
+}
+
+
+.copyright {
+    @include mainBorder(#fff, border-top);
+    color: #fff;
+  }
+
+// of main Content on footer
+
+@media screen and (max-width: 70em) {
+    .footer-showcase{
+        flex: 48%;
+    }     
+}
+
+@media screen and (max-width: 45em) {
+    .footer-container {
+        display:inline;    
+    }
+ 
+    .info li {
+        margin-right:10px;
+        @include mainBorder(#fff, border-bottom);
+    }
+    .copyright {
+        text-align: center;
+        border:none;
+      }
 }

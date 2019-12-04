@@ -1,6 +1,6 @@
 ---
 nafn: emma
-position: songvari
+instrument: songvari
 fullt nafn: emma klemma
 mynd: /assets/images/author/emma.jpg
 time: 20:30

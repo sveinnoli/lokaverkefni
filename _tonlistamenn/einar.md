@@ -1,6 +1,6 @@
 ---
 nafn: einar
-position: gitaraspilari
+instrument: gitaraspilari
 fullt nafn: einar steinar
 mynd: /assets/images/author/einar.jpg
 time: 20:00

@@ -17,6 +17,7 @@ html, body {
   background-color: whitesmoke;
   background-position: center; 
   background-size: cover; 
+  overflow-x: hidden;
 }
 
 .html {
@@ -28,7 +29,9 @@ img {
   width: 100%; 
   height: auto;
 }
-
+li, ul {
+ list-style: none;
+}
 h1 h2 h3 h4 h5 h6 {
   font-family: var(--header-font);
   line-height: 1.5;
@@ -72,6 +75,19 @@ a {
   position: relative;
   left: 10px;
 }
+.icon-facebook:before {
+  content: "\ea90";
+  color:rgb(22, 129, 165);
+}
+.icon-instagram:before {
+  content: "\ea92";
+}
+.icon-twitter:before {
+  content: "\ea96";
+  color:rgb(17, 92, 231);
+}
+
+
 
 @mixin mainBorder($color:#fff, $border1:border,  $border2:none) {
     #{$border1}:3px solid;

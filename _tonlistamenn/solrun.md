@@ -1,9 +1,9 @@
 ---
 nafn: solrun
-position: trompet
+instrument: trompet
 fullt nafn: solrun jonsdottir
 mynd: /assets/images/author/solrun.jpg
-time: 21:00
+time: 21:30
 ---
 sólrun spilar á trompet
 

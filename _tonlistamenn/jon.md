@@ -1,9 +1,9 @@
 ---
 nafn: jon
-position: trommari
+instrument: trommari
 fullt nafn: jon steinar
 mynd: /assets/images/author/jon.jpg
-time: 21:30
+time: 21:00
 ---
 jon er trommari
 
