@@ -14,7 +14,5 @@ jon er 20 ára trommari sem er hávaxin, honum finnst hamborgarar góðir og æf
 
 
 <body>
-    <audio controls>
-        <source src="/assets/themalog/jojo.mp3" type="audio/mpeg">
-    </audio>
+        <audio src="/assets/themalog/jojo.mp3" controls> Lag </audio>
 </body>
