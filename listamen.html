@@ -5,22 +5,30 @@ layout: default
   <h2 class="musician-heading">Tónlistarmen</h2>
   <div class="musician-showcase">
       {%for musician in site.tonlistarmen%} 
-
         <section class="musician">
-
+          <form>
+            <label>Netfang</label>
+                <input 
+                class="fan-club"
+                required
+                type="email" 
+                name="email" 
+                placeholder="name@email(.is/.com)"
+                title="Enter email">
+                <input type="submit" value="Skrá í  aðdáendaklúbb"> 
+          </form>
           <div class="musician-case">
             <img class="musician-image" src="{{site.baseurl}}{{musician.image}}">
             <span class="musician-info">{{musician.nafn}}</span>
           </div>
-
           <div class="musician-bio">
             Þetta er {{musician.nafn}}, hann er {{musician.instrument}} Hann er frá bretlandi, 
           </div>
           <div class="musician-time">
-            Hann spilar sólo af eitt af lögunum sínum kl <span class="time">{{musician.time}}</span>
+            Z-Rock spilar eitt af lögunum hans Kl <span class="time">{{musician.time}}</span>
           </div>
           <button>
-            <a target="_blank" href="{{site.baseurl}}{{musician.url}}">Ýtta hérna</a>
+            <a href="{{site.baseurl}}{{musician.url}}">Fleiri upplýsingar</a>
           </button>
         </section>
 

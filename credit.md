@@ -14,7 +14,7 @@ layout: default
             <a class="md-link" href="https://fonts.google.com/">Google fyrir Google Fonts</a>
         </li>
         <li>
-            <a class="md-link" href="https://www.google.com">Google fyrir Myndirnar í footerinum</a>
+            <a class="md-link" href="https://unsplash.com/s/photos/concert">Unsplash fyrir myndirnar í footerinum</a>
         </li>
     </ol>
 </div>

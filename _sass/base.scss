@@ -1,5 +1,5 @@
 :root {
-  --header-font: 'Anton', sans-serif;
+  --main-font: 'Anton', sans-serif;
   --secondary-font: 'Rambla', sans-serif;
   --metal-font: 'Metal Mania', cursive;
 }
@@ -24,9 +24,10 @@ body {
   display:flex;
   flex-direction: column;
   background-image: url("/lokaverkefni/assets/images/concert-background.jpg");
-  background-color: black;
+  background-color: #111111;
   background-position: center; 
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
 img {
@@ -46,6 +47,8 @@ a {
   text-decoration: none;
   color: lightskyblue;
 }
+
+.heading-title {}
 
 //Icomoon
 @font-face {
@@ -159,6 +162,11 @@ $mainBackground : rgba(0, 0, 0, .85%);
   &:hover {
     color:$mainColor;
   }
+}
+
+.md-centered {
+  @include flexCenter();
+  flex-direction: column;
 }
 
 

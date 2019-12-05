@@ -1,7 +1,6 @@
-.main-wrapper {
 
-}
 
+//Information about the music festival homepage
 .location-container {
     display:flex;
     justify-content: center;
@@ -10,8 +9,9 @@
 .heading-map {
     text-align: center;
     width: 30%;
-    margin: 0.45em auto 0;
-    background: rgba(255, 255, 255, .85);
+    margin:0 auto 0;
+    background: rgba(0,0,0,0.85);
+    color:white;
     border-radius: 10px;
     font-family: var(--metal-font);
     font-size: 2em;
@@ -28,10 +28,11 @@
 }
 
 .map-iframe {
-    width: 500px;
-    height: 500px;
+    width: 30em;
+    height: 30em;
     border: 2px solid black;
 }
+
 
 .information {
     padding: 10px;
@@ -48,6 +49,39 @@
     margin-bottom: 2em;
 }
 
+
+// Information about start of concert
+.concert-start {
+    @include flexCenter();
+    width: 100%;
+    margin: 0.75em auto;
+    flex-wrap:wrap;
+}
+
+.concert-item {
+    background: rgba(245, 26, 26, .85);
+    position: relative;
+    @include flexCenter();
+    height: 4em;
+    margin: 10px 10px 20px;
+    border-radius: 10px;
+    &:hover {
+        background: rgba(245, 26, 26, 1);
+    }
+}
+
+.item-date {
+    color:white;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin: 10px;
+    line-height: 2.5em;
+    height: 100%;
+    width: 100%;
+}
+
+
 @media screen and(max-width: 50em) {
     .heading {
         width: 55%
@@ -55,9 +89,13 @@
     .heading-map {
         width: 55%
     }
+    .map-iframe {
+        width: 100%;
+    }
     .information {
         width: 100%;
     }
+    
 }
 
 @media screen and(max-width: 30em) {
@@ -66,6 +104,10 @@
     }
     .heading-map {
         width: 100%
+    }
+    
+    .concert-item {
+        flex:40%;
     }
 }
 

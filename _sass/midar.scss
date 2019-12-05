@@ -40,7 +40,17 @@ td {
     padding: 0.75em;
 }
 /*END OF TABLE*/
-
+.heading-title {
+    text-align: center;
+    width: 30%;
+    margin: 0 auto 0.2em;
+    background: rgba(0,0,0,0.85);
+    font-family: var(--metal-font);
+    font-size: 2em;
+    color: #fff;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
 /*===========================
     START OF SIGNIN FORM
 ============================*/
