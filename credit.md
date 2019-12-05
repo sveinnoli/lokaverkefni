@@ -16,5 +16,8 @@ layout: default
         <li>
             <a class="md-link" href="https://unsplash.com/s/photos/concert">Unsplash fyrir myndirnar í footerinum</a>
         </li>
+        <li>
+            <a class="md-link" href="https://www.google.com">Google images fyrir myndirnar af tónlistameninum</a>
+        </li>
     </ol>
 </div>
