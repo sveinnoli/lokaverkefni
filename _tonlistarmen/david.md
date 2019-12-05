@@ -13,6 +13,6 @@ sólrún er 25 ára gömul og finnst hönnun skemmtileg, hún byrjaði að læra
 
 <body>
     <audio controls>
-        <source src="/assets/themalog/jojo" type="audio/mpeg">
+        <source src="/assets/themalog/jojo1.mp3" type="audio/mpeg">
     </audio>
 </body>

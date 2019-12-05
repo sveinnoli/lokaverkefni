@@ -15,6 +15,6 @@ emma er 22 ára söngvari, henni finnst gaman að horfa á æfintýramyndir og t
 
 <body>
     <audio controls>
-        <source src="/assets/themalog/doom" type="audio/mpeg">
+        <source src="/assets/themalog/doom.mp3" type="audio/mpeg">
     </audio>
 </body>

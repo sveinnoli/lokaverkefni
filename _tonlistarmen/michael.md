@@ -13,6 +13,6 @@ einar er 27 ára gamall og er frá akureyri, honum finnst ökutæki flott og han
 
 <body>
     <audio controls>
-        <source src="/assets/themalog/blood" type="audio/mpeg">
+        <source src="/assets/themalog/blood.mp3" type="audio/mpeg">
     </audio>
 </body>
