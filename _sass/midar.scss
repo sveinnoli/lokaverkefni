@@ -185,3 +185,10 @@ input[type=submit] {
         display:block;
     }
 }
+
+@media screen and(max-width: 30em) {
+    .heading-title {
+        width: auto;
+        border-radius: 0;
+    }
+}

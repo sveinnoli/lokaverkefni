@@ -87,8 +87,10 @@
         width: 55%
     }
     .heading-map {
-        width: 55%
+        width: 100%;
+        border-radius: 0;
     }
+
     .map-iframe {
         width: 100%;
     }
@@ -100,11 +102,9 @@
 
 @media screen and(max-width: 30em) {
     .heading {
-        width: 100%
+        width: 100%;
     }
-    .heading-map {
-        width: 100%
-    }
+    
     
     .concert-item {
         flex:40%;

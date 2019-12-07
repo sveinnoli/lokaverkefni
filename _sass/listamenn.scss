@@ -35,7 +35,7 @@
 
 .musician form {
     display:flex;
-    text-align: center;;
+    text-align: center;
     width: 100%;
 }
 
@@ -160,7 +160,23 @@
 
 @media screen and(max-width: 30em) {
     .musician-heading {
-        width: 100%
+        width: 100%;
+        border-radius: 0;
+    }
+    .musician label {
+        font-size: 1.1em;
+    }
+    .musician form {
+        display:flex;
+        flex-wrap:wrap;
+    }
+    .musician input[type=submit] {
+        flex: 100%;
+        border-radius: 0;
+    }
+    .musician input[type=email] {
+        flex: 70%;
+        border-top-right-radius: 10px;
     }
 }
 
